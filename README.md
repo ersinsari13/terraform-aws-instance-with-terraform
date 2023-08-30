@@ -16,4 +16,5 @@ module "instance-with-docker" {
     source = "ersinsari13/instance-with-docker/aws"
     key_name = "ersin"
 }
+
 '''hcl
