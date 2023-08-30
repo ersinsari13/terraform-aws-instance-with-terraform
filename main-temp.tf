@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "5.13.1"
-    }
-  }
-}
-
-provider "aws" {
-  region = "us-east-1"
-}
-
 data "aws_ami" "amzn-linux-2023-ami" {
   most_recent = true
   owners      = ["amazon"]
